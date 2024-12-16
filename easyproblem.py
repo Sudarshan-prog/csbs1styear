@@ -4,11 +4,10 @@ def last_char_of_string(s):
     else:
         return ""  # Return an empty string for empty input
 
-if _name__ == "__main_":
-    a_string = int(input("Enter a string: "))
-    last_char = last_char_of_string(a string)
+if _name__ == "__main__":
+    a_string = input("Enter a string: ")  # Change to input() to read as string
+    last_char = last_char_of_string(a_string)  # Corrected variable name
     if last_char:
-      
-      print("The last character of the string is:"  last char)
-    else;
-      print("The string is empty.")  
+        print("The last character of the string is:", last_char)  # Add comma
+    else:
+        print("The string is empty.")
